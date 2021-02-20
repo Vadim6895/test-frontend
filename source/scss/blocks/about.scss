@@ -1,0 +1,88 @@
+.about {
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.about__title-nutrition {
+  padding-top: 20px;
+  padding-left: 10px;
+  font-size: 16px;
+}
+
+.about__nutrition-description {
+  margin: 0 10px;
+  font-size: 12px;
+}
+
+.about__description-2 {
+  margin: 0 10px;
+  list-style-type: disc;
+  padding-left: 20px;
+  color: #a6a6a6;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ebebeb;
+}
+
+.about__quality-item {
+  margin-top: 10px;
+}
+
+.about__parametrs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 20px;
+  border-bottom: 1px solid #ebebeb;
+}
+
+.about__parametr {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about__parametr-one {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.about__parametr-three {
+  background-color: #ebebeb;
+  margin-bottom: 20px;
+}
+
+.about__ingridients {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #ebebeb;
+}
+
+.about__title-ingredients {
+  margin-left: 10px;
+  font-size: 16px;
+}
+
+.about__ingridients-description {
+  margin: 0 10px;
+}
+
+.about__other {
+  padding-bottom: 10px;
+}
+
+.about__other-title {
+  font-size: 16px;
+  margin-left: 10px;
+}
+
+.about__list {
+  padding: 0 10px;
+}
+
+.about__other-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about__other-subtitle {
+  color: #969695;
+}

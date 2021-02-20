@@ -1,0 +1,33 @@
+html {
+  box-sizing: border-box;
+  width: 320px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: #f5f4f2;
+  color: $black;
+  font-family: $main-font;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}

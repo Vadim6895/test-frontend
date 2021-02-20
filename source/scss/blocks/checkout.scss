@@ -1,0 +1,45 @@
+.checkout {
+  position: fixed;
+  bottom: 0;
+  min-width: 320px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background-color: #333333;
+}
+
+.checkout__delivery {
+  margin-top: 0;
+  color: #fff;
+}
+
+.checkout__total {
+  margin-top: 0;
+  color: #fff;
+}
+
+.checkout__delivery-title {
+  margin: 0
+}
+
+.checkout__delivery-time {
+  font-weight: bold;
+}
+
+.checkout__total-title {
+  margin: 0;
+}
+
+.checkout__total-price {
+  font-weight: bold;
+}
+
+.checkout__button {
+  background-color: #ffbc41;
+  border: none;
+  font-weight: bold;
+  border-radius: 5px;
+  padding: 5px 10px;
+}

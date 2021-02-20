@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="description" content="test-frontend" />
+    <title>test frontend</title>
+    <link rel="stylesheet" href="/vendors/normalize-css/normalize.min.css" />
+  </head>
+
+  <body class="body">
+      <nav class="main-nav">
+        <a class="main-nav__link" href="product.html">
+          <svg class="main-nav__img" width="16" height="16" fill="none">
+            <path  d="M14.5 8H1M7.8 15L1 8l6.8-7" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          <span class="visually-hidden">Вернуться назад</span>
+        </a>
+        <h4 class="main-nav__title">Cart</h4>
+      </nav>
+
+    <main>
+      <form class="cart">
+        <h4 class="cart__title">Delivery address</h4>
+        <input class="cart__address-input" type="text" placeholder="lorem ipsum des velles"></input>
+
+        <ul class="cart__details details">
+          <li class="details__item">
+            <input class="details__input" type="text" id="flat">
+            <label class="details__label" for="flat">Flat</label>
+          </li>
+          <li class="details__item">
+            <input class="details__input" type="text" id="floor">
+            <label class="details__label" for="floor">Floor</label>
+          </li>
+          <li class="details__item">
+            <input class="details__input" type="text" id="block">
+            <label class="details__label" for="block">Block</label>
+          </li>
+        </ul>
+
+        <ul class="cart__list order-list">
+          <h4 class="order-list__title">3 Items</h4>
+          <li class="order-list__item">
+            <img class="order-list__img" src="/img/milk.png">
+            <span class="order-list__info">Best-in 10 British Big Eggs..</span>
+            <span class="order-list__price">£ 1,59</span> <span class="order-list__price-2">1 pc / £1.59</span>
+
+            <button class="order-list__delete-btn" type="button"></button>
+            <span class="order-list__value">2</span>
+            <button class="order-list__add-btn" type="button">+</button>
+          </li>
+
+          <li class="order-list__item">
+            <img class="order-list__img"src="/img/milk.png">
+            <span class="order-list__info">Best-in 10 British Big Eggs..</span>
+            <span class="order-list__change-price">Price has been changed <span class="order-list__price-value">(£2.59)</span></span>
+            <span class="order-list__price order-list__price--changed">£ 1,59</span> <span class="order-list__price-2">1 pc / £1.59</span>
+
+            <button class="order-list__delete-btn" type="button"></button>
+            <span class="order-list__value">2</span>
+            <button class="order-list__add-btn" type="button">+</button>
+          </li>
+          <li class="order-list__item">
+            <img class="order-list__img"src="/img/milk.png">
+            <span class="order-list__info">Best-in 10 British Big Eggs..</span>
+            <span class="order-list__change-price">Special offer <strong>-20%</strong></span>
+            <span class="order-list__price order-list__price--changed">£ 1,59</span> <span class="order-list__price-2">1 pc / £1.59</span>
+
+            <button class="order-list__delete-btn" type="button"></button>
+            <span class="order-list__value">2</span>
+            <button class="order-list__add-btn" type="button">+</button>
+          </li>
+        </ul>
+      </form>
+
+      <section class="payment">
+        <h4 class="payment__title">Payment</h4>
+        <input class="payment__promocode-input" id="promocode" type="text" placeholder="GHYU907H">
+        <label class="payment__promocode-label" for="promocode"></label>
+        <ul class="payment__list">
+          <li class="payment__item">Order <span class="payment__value">£ 4</span></li>
+          <li class="payment__item">Delivery <span class="payment__value">£ 0,4</span></li>
+          <li class="payment__item payment__item--promo">Promocode<span class="payment__value">-£ 0,4</span></li>
+          <li class="payment__item payment__item--total">Total<span class="payment__value">£ 4.4</span></li>
+        </ul>
+      </section>
+
+      <section class="checkout">
+        <img src="/img/lightning.png">
+        <div class="checkout__delivery">
+          <p class="checkout__delivery-title">Delivery:</p>
+          <span class="checkout__delivery-time">25-30 min</span>
+        </div>
+        <div class="checkout__total">
+          <p class="checkout__total-title">Total:</p>
+          <span class="checkout__total-price">£ 150.99</span>
+        </div>
+        <button class="checkout__button" type="button">Checkout</button>
+      </section>
+    </main>
+
+  </body>
+</html>
